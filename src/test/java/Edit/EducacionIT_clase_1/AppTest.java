@@ -9,7 +9,7 @@ public class AppTest {
 
 	@Test
 	public void lab1_test() {
-		System.out.println("Hola Mundo de Automatización!");
+		System.out.println("Hola Mundo de Automatización 2022!");
 			
 	
 	}

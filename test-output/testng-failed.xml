@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Pruebas.AccesoABaseDeDatos">
+      <class name="Pruebas.Laboratorio7Test">
         <methods>
-          <include name="testBaseDeDatos"/>
+          <include name="cierreNavegador"/>
+          <include name="alertaEscribir"/>
+          <include name="abrirPagina"/>
         </methods>
-      </class> <!-- Pruebas.AccesoABaseDeDatos -->
+      </class> <!-- Pruebas.Laboratorio7Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
